@@ -5,7 +5,7 @@ library(RODBC)
 library(dplyr)
 library(tidyr)
 #connect to odbc
-myconn <- odbcConnect("dartmouth",uid="mzhu",pwd="mzhu@qbs181")
+myconn <- odbcConnect("dartmouth1",uid="mzhu",pwd="mzhu@qbs181")
 #import data from Demographics
 demo <- sqlQuery(myconn,"SELECT * From Demographics")
 #import data from ChronicConditions
