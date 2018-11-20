@@ -22,7 +22,7 @@ DROP COLUMN gh1, gh2, pf02,gh3,gh4,gh5,test
 SELECT TOP 10 * FROM mzhu.final
 ORDER BY NEWID()
 --1d
-select ID, DATEDIFF(week, MinDate, ObservedTime) as WeekOrder, AVG(BPStatus) as Average
+select ID, DATEDIFF(week, MinDate, ObservedTime) as WeekDiff, AVG(BPStatus) as Average
 from (
 select mzhu.final.*, a.MinDate as MinDate 
 from mzhu.final
