@@ -12,7 +12,8 @@ I have received permission from the instructor to make my code public.
 
 The tasks for each subdirectory in this repository are as follows:
 
-1. In project 1:
+
+1. For project 1:
 
 (1) Rename all the columns in the table Demographics
 
@@ -22,7 +23,8 @@ The tasks for each subdirectory in this repository are as follows:
 
 (4) Create a new column “Age group” and create age groups with an interval of 25 yrs 
 
-2. In project 2:
+
+2. For project 2:
 
 (1) Create a new column “Enrollment group” in the table Phonecall and insert different group names in this column
 
@@ -36,7 +38,8 @@ The tasks for each subdirectory in this repository are as follows:
 
 (6) Obtain the count of texts based on the chronic condition over a period of time (say per week)
 
-3. In project 3:
+
+3. For project 3:
 
 (1) Compute the rate for table2, and table4a+table4b in the tidyr package and perform the four operation
 
@@ -63,6 +66,44 @@ c.	Confirm my hypothesis that the early departures of flights in minutes 20-30 a
 (4) Follow the lecture notes/R file on text scraping and scrape this webpage to extract useful information--https://geiselmed.dartmouth.edu/qbs/
 
 
-## (Optional: Additional sections)
+4. For midterm project:
 
-You may include any additional information you would like others to know. This won't be graded.
+Visit the website https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/DIQ_I.htm#Data_Processing_and_Editing
+
+(1)	The DIQ_I.xpt file has some problems with its data (e.g., missing values, numeric columns stored as chars, etc.) and need to be cleaned before further use
+
+a.	List the data-related issues you see in this data set
+
+b.	How will you address each data-related issue?
+
+c.	Give justification for why you chose a particular way to address each issue. For example, if you decide to address missing values by removing rows or filling empty data cells, justify your decision or if you want to create a PHI field like year of Birth
+
+(2)	Clean the data by addressing each point listed in 1
+
+(3) Verify that whether the counts of each code or value for various variables are correct as mentioned in the website
+
+
+5. For final project:
+
+(1) Consider the following blood pressure dataset (IC_BP.csv). Perform the following operations
+
+a. Convert BPalerts to BPstatus
+
+b. Define Hypotension-1 & Normal as Controlled blood pressure Hypotension-2, Hypertension-1, Hypertension-2 & Hypertension-3 as Uncontrolled blood pressure: Controlled & Uncontrolled blood pressure as 1 or 0 (Dichotomous Outcomes)
+
+c. Merge this table with demographics (SQL table) to obtain their enrollment dates
+
+d. Create a 12-week interval of averaged scores of each customer
+
+e. Compare the scores from baseline (firstweek) to follow-up scores (12 weeks)
+
+f. How many customers were brought from uncontrolled regime to controlled regime after 12 weeks of intervention?
+
+(2) Merge the tables Demographics, Chronic Conditions and TextMessages. Obtain the final dataset such that we have 1 Row per ID by choosing on the latest date when the text was sent (if sent on multiple days)
+
+(3) Repeat Question 2 in R. The answer should reflect use of ODBC drivers to connect to SQL raw tables and import data into the R environment before the wrangling process. Hint: You might want to use tidyr/dplyr packages
+
+(4) Set up a public Git Hub repository to share your code
+
+
+
