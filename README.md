@@ -15,10 +15,14 @@ The tasks for each subdirectory in this repository are as follows:
 1. In project 1:
 
 For table Demographics:
+
 (1) Rename all the columns 
+
 (2) Create a new column “Enrollment Status” and insert different status in this column
+
 (3) Create a new Column “Sex” and insert different values for sex in this column
-(4) Create a new column “Age group” and create age groups with an interval of 25 yrs. 
+
+(4) Create a new column “Age group” and create age groups with an interval of 25 yrs 
 
 2. In project 2:
 
