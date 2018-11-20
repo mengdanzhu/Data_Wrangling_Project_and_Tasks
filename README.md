@@ -1,14 +1,17 @@
 # Data Wrangling Projects
 
-This is a template for students enrolled in the QBS181: Data Wrangling course.
+These are all of the projects I have done in the QBS181: Data Wrangling course at Dartmouth.
 
 ## Overview
 
-Write some descriptions here...
+The purpose of this repository is to show all the projects I have done in QBS181 as part of the final.
 
-Add a statement about having received permission from the instructor to make your code public.
+I have received permission from the instructor to make my code public.
 
 ## Description of subdirectories
+
+In project 1:
+
 
 Write description for each subdirectory (i.e. project) here...
 
