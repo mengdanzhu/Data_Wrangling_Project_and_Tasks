@@ -13,7 +13,7 @@ I have received permission from the instructor to make my code public.
 The tasks for each subdirectory in this repository are as follows:
 
 
-1. For project 1:
+1. For the project 1:
 
 (1) Rename all the columns in the table Demographics
 
@@ -24,7 +24,7 @@ The tasks for each subdirectory in this repository are as follows:
 (4) Create a new column “Age group” and create age groups with an interval of 25 yrs 
 
 
-2. For project 2:
+2. For the project 2:
 
 (1) Create a new column “Enrollment group” in the table Phonecall and insert different group names in this column
 
@@ -39,7 +39,7 @@ The tasks for each subdirectory in this repository are as follows:
 (6) Obtain the count of texts based on the chronic condition over a period of time (say per week)
 
 
-3. For project 3:
+3. For the project 3:
 
 (1) Compute the rate for table2, and table4a+table4b in the tidyr package and perform the four operation
 
@@ -66,7 +66,7 @@ c.	Confirm my hypothesis that the early departures of flights in minutes 20-30 a
 (4) Follow the lecture notes/R file on text scraping and scrape this webpage to extract useful information--https://geiselmed.dartmouth.edu/qbs/
 
 
-4. For midterm project:
+4. For the midterm project:
 
 Visit the website https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/DIQ_I.htm#Data_Processing_and_Editing
 
@@ -83,7 +83,7 @@ c.	Give justification for why you chose a particular way to address each issue. 
 (3) Verify that whether the counts of each code or value for various variables are correct as mentioned in the website
 
 
-5. For final project:
+5. For the final project:
 
 (1) Consider the following blood pressure dataset (IC_BP.csv). Perform the following operations
 
